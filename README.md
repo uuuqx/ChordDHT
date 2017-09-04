@@ -16,8 +16,8 @@ JARs required in order to run the project. The project consists of 2 JARs that n
 BootStrapNode JAR and the ChordNode JAR both of which can be built by changing the MainClass in 
 pom.xml (line 24) to either ChordNodeImpl or BootStrapNodeImpl. At any given time a BootStrap node 
 must be online with a known IP as all the Client nodes (ChordNodes) will need to contact the bootstrap
-node in order to join the network, the bootstrap node servers as a well known point of entry in the
-network that handles the initial join of ever other node.
+node in order to join the network, the bootstrap node serves as a well known point of entry in the
+network and handles the initial join of every node.
 
 ## Instructions
 1. Change the pom.xlm MainClass (line 24) as mentioned in the summary.
